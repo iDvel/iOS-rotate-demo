@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		344AA24A1CC6AC6000EFE3EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA2491CC6AC6000EFE3EE /* main.m */; };
 		344AA24D1CC6AC6000EFE3EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA24C1CC6AC6000EFE3EE /* AppDelegate.m */; };
-		344AA2501CC6AC6000EFE3EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA24F1CC6AC6000EFE3EE /* ViewController.m */; };
-		344AA2531CC6AC6000EFE3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA2511CC6AC6000EFE3EE /* Main.storyboard */; };
 		344AA2551CC6AC6000EFE3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344AA2541CC6AC6000EFE3EE /* Assets.xcassets */; };
 		344AA2581CC6AC6000EFE3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344AA2561CC6AC6000EFE3EE /* LaunchScreen.storyboard */; };
 		344AA2631CC6AC6000EFE3EE /* iOS_rotate_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA2621CC6AC6000EFE3EE /* iOS_rotate_demoTests.m */; };
 		344AA26E1CC6AC6000EFE3EE /* iOS_rotate_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA26D1CC6AC6000EFE3EE /* iOS_rotate_demoUITests.m */; };
+		344AA27D1CC6ACE200EFE3EE /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA27C1CC6ACE200EFE3EE /* TabBarController.m */; };
+		344AA2801CC6AD2300EFE3EE /* A_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA27F1CC6AD2300EFE3EE /* A_Controller.m */; };
+		344AA2831CC6AD3700EFE3EE /* B_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 344AA2821CC6AD3700EFE3EE /* B_Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		344AA2491CC6AC6000EFE3EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		344AA24B1CC6AC6000EFE3EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		344AA24C1CC6AC6000EFE3EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		344AA24E1CC6AC6000EFE3EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		344AA24F1CC6AC6000EFE3EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		344AA2521CC6AC6000EFE3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		344AA2541CC6AC6000EFE3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344AA2571CC6AC6000EFE3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344AA2591CC6AC6000EFE3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,12 @@
 		344AA2691CC6AC6000EFE3EE /* iOS-rotate-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-rotate-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		344AA26D1CC6AC6000EFE3EE /* iOS_rotate_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_rotate_demoUITests.m; sourceTree = "<group>"; };
 		344AA26F1CC6AC6000EFE3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344AA27B1CC6ACE200EFE3EE /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		344AA27C1CC6ACE200EFE3EE /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		344AA27E1CC6AD2300EFE3EE /* A_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_Controller.h; sourceTree = "<group>"; };
+		344AA27F1CC6AD2300EFE3EE /* A_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_Controller.m; sourceTree = "<group>"; };
+		344AA2811CC6AD3700EFE3EE /* B_Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B_Controller.h; sourceTree = "<group>"; };
+		344AA2821CC6AD3700EFE3EE /* B_Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B_Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,12 @@
 			children = (
 				344AA24B1CC6AC6000EFE3EE /* AppDelegate.h */,
 				344AA24C1CC6AC6000EFE3EE /* AppDelegate.m */,
-				344AA24E1CC6AC6000EFE3EE /* ViewController.h */,
-				344AA24F1CC6AC6000EFE3EE /* ViewController.m */,
-				344AA2511CC6AC6000EFE3EE /* Main.storyboard */,
-				344AA2541CC6AC6000EFE3EE /* Assets.xcassets */,
-				344AA2561CC6AC6000EFE3EE /* LaunchScreen.storyboard */,
-				344AA2591CC6AC6000EFE3EE /* Info.plist */,
+				344AA27B1CC6ACE200EFE3EE /* TabBarController.h */,
+				344AA27C1CC6ACE200EFE3EE /* TabBarController.m */,
+				344AA27E1CC6AD2300EFE3EE /* A_Controller.h */,
+				344AA27F1CC6AD2300EFE3EE /* A_Controller.m */,
+				344AA2811CC6AD3700EFE3EE /* B_Controller.h */,
+				344AA2821CC6AD3700EFE3EE /* B_Controller.m */,
 				344AA2481CC6AC6000EFE3EE /* Supporting Files */,
 			);
 			path = "iOS-rotate-demo";
@@ -117,6 +121,9 @@
 		344AA2481CC6AC6000EFE3EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				344AA2541CC6AC6000EFE3EE /* Assets.xcassets */,
+				344AA2561CC6AC6000EFE3EE /* LaunchScreen.storyboard */,
+				344AA2591CC6AC6000EFE3EE /* Info.plist */,
 				344AA2491CC6AC6000EFE3EE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,7 +252,6 @@
 			files = (
 				344AA2581CC6AC6000EFE3EE /* LaunchScreen.storyboard in Resources */,
 				344AA2551CC6AC6000EFE3EE /* Assets.xcassets in Resources */,
-				344AA2531CC6AC6000EFE3EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				344AA2501CC6AC6000EFE3EE /* ViewController.m in Sources */,
+				344AA27D1CC6ACE200EFE3EE /* TabBarController.m in Sources */,
+				344AA2801CC6AD2300EFE3EE /* A_Controller.m in Sources */,
+				344AA2831CC6AD3700EFE3EE /* B_Controller.m in Sources */,
 				344AA24D1CC6AC6000EFE3EE /* AppDelegate.m in Sources */,
 				344AA24A1CC6AC6000EFE3EE /* main.m in Sources */,
 			);
@@ -308,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		344AA2511CC6AC6000EFE3EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				344AA2521CC6AC6000EFE3EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		344AA2561CC6AC6000EFE3EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +496,7 @@
 				344AA2741CC6AC6000EFE3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		344AA2751CC6AC6000EFE3EE /* Build configuration list for PBXNativeTarget "iOS-rotate-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				344AA2771CC6AC6000EFE3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		344AA2781CC6AC6000EFE3EE /* Build configuration list for PBXNativeTarget "iOS-rotate-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				344AA27A1CC6AC6000EFE3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

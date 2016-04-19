@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  B_Controller.h
 //  iOS-rotate-demo
 //
 //  Created by Dvel on 16/4/20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface B_Controller : UIViewController
 
 @end
-
